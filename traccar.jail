@@ -1,9 +1,10 @@
 [traccar]
 enabled  = true
+protocol = all
 port     = 5001:5207
 filter   = traccar
 logpath  = /opt/traccar/logs/tracker-server.log
-banaction = iptables-multiport
+banaction = iptables-allports
 findtime = 1m
 bantime  = 1h
 maxretry = 1
